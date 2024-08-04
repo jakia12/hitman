@@ -2,12 +2,32 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="preload"
-      as="image"
-      href="./images/logo.jpg"
-    />
+    <link rel="preload" as="image" href="./images/logo.jpg" />
     <title>HITMAN</title>
+    <style>
+      .abt-sec {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 80px 0;
+        background-color: #000000;
+      }
+
+      .abt-div {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+      }
+
+	  .abt-text{
+		width: 70%;
+	  }
+
+      @media screen and (max-width: 768px) {
+        .abt-div {
+          flex-direction: column;
+        }
+      }
+    </style>
     <link
       rel="alternate"
       type="application/rss+xml"
@@ -786,7 +806,7 @@
       type="text/xml+oembed"
       href="https://random.dad/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frandom.dad%2F&#038;format=xml"
     />
-   
+
     <style>
       .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
       .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload)
@@ -816,24 +836,10 @@
         }
       }
     </style>
-    <link
-      rel="icon"
-      href="./images/l'"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      href="./images/logo.jpg"
-      sizes="192x192"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="./images/logo.jpg"
-    />
-    <meta
-      name="msapplication-TileImage"
-      content="./images/logo.jpg"
-    />
+    <link rel="icon" href="./images/l'" sizes="32x32" />
+    <link rel="icon" href="./images/logo.jpg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="./images/logo.jpg" />
+    <meta name="msapplication-TileImage" content="./images/logo.jpg" />
     <noscript
       ><style>
         #loftloader-wrapper {
@@ -943,7 +949,7 @@
             <div class="elementor-widget-container">
               <div class="elementor-button-wrapper">
                 <a
-				href="chartlink"
+                  href="chartlink"
                   class="elementor-button elementor-size-sm elementor-animation-shrink"
                   role="button"
                 >
@@ -1364,8 +1370,15 @@
             >
               <div class="elementor-widget-container">
                 <h2 class="premium-dual-header-first-header">
-                  <span style="color: rgb(158, 2, 2);" class="premium-dual-header-first-span">HIT </span
-                  ><span style="color: rgb(158, 2, 2);" class="premium-dual-header-second-header">MAN</span>
+                  <span
+                    style="color: rgb(158, 2, 2)"
+                    class="premium-dual-header-first-span"
+                    >HIT </span
+                  ><span
+                    style="color: rgb(158, 2, 2)"
+                    class="premium-dual-header-second-header"
+                    >MAN</span
+                  >
                 </h2>
               </div>
             </div>
@@ -1406,7 +1419,6 @@
                   src="./images/hit.png"
                   class="attachment-large size-large wp-image-191"
                   alt=""
-                  
                   sizes="(max-width: 800px) 100vw, 800px"
                 />
               </div>
@@ -1414,6 +1426,35 @@
           </div>
         </div>
       </div>
+      <section style="background-color: #000000;">
+        <section class="abt-sec">
+          <div class="abt-div">
+            <div class="abt-text">
+              <h1>About $HITMAN</h1>
+              <p style="color: white; font-size: 18px;">
+                Yusuf Dikeç is a Turkish Pistol Shooter who participated in the
+                2024 Summer Paris Olympics, winning a silver medal in the mixed
+                team event. A photo of Dikeç shooting with no specialized
+                eyewear went viral on Twitter / X in late July 2024 and was used
+                in memes, with many internet users joking about him looking like
+                a passerby who just happened to pick up the pistol and compete
+                or calling him a trained hitman and assassin sent by Turkey to
+                eviscerate the competition. Dikeç is a retired officer of the
+                Turkish Gendarmerie, a military force in Turkey.
+              </p>
+
+              <a
+                style=""
+                href="https://knowyourmeme.com/memes/people/yusuf-dikec-turkish-pistol-shooter"
+                >Know More</a
+              >
+            </div>
+            <div class="abt-img">
+              <img src="./images/abt.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+      </section>
       <section
         class="elementor-section elementor-top-section elementor-element elementor-element-5f6e47ee elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="5f6e47ee"
@@ -1452,8 +1493,8 @@
                   <script>
                     document.addEventListener("DOMContentLoaded", function () {
                       // URL de la canción
-                    //   var songURL =
-                    //     "https://random.dad/wp-content/uploads/2024/08/Y2meta.app-James-Bond-Original-Motion-Picture-Soundtrack-Remastered-128-kbps.mp3";
+                      //   var songURL =
+                      //     "https://random.dad/wp-content/uploads/2024/08/Y2meta.app-James-Bond-Original-Motion-Picture-Soundtrack-Remastered-128-kbps.mp3";
 
                       // Crear el elemento de audio
                       var audioElement = document.createElement("audio");
@@ -1549,10 +1590,7 @@
                         data-widget_type="image.default"
                       >
                         <div class="elementor-widget-container">
-                          <a
-                            href="chartlink"
-                            target="_blank"
-                          >
+                          <a href="chartlink" target="_blank">
                             <img
                               decoding="async"
                               width="150"
@@ -1571,10 +1609,7 @@
                         data-widget_type="image.default"
                       >
                         <div class="elementor-widget-container">
-                          <a
-                            href="dexscreenerlink"
-                            target="_blank"
-                          >
+                          <a href="dexscreenerlink" target="_blank">
                             <img
                               decoding="async"
                               width="150"
@@ -1706,7 +1741,6 @@
                     src="./images/logo.jpg"
                     class="attachment-large size-large wp-image-50"
                     alt=""
-                   
                     sizes="(max-width: 700px) 100vw, 700px"
                   />
                 </div>
@@ -1844,16 +1878,9 @@
                 decoding="async"
                 width="800"
                 height="800"
-                src="https://random.dad/wp-content/uploads/2024/08/photo_2024-08-01_12-06-05-1024x1024.jpg"
+                src="./images/meme.jpg"
                 class="attachment-large size-large wp-image-53"
                 alt=""
-                srcset="
-                  https://random.dad/wp-content/uploads/2024/08/photo_2024-08-01_12-06-05-1024x1024.jpg 1024w,
-                  https://random.dad/wp-content/uploads/2024/08/photo_2024-08-01_12-06-05-300x300.jpg    300w,
-                  https://random.dad/wp-content/uploads/2024/08/photo_2024-08-01_12-06-05-150x150.jpg    150w,
-                  https://random.dad/wp-content/uploads/2024/08/photo_2024-08-01_12-06-05-768x768.jpg    768w,
-                  https://random.dad/wp-content/uploads/2024/08/photo_2024-08-01_12-06-05.jpg           1280w
-                "
                 sizes="(max-width: 800px) 100vw, 800px"
               />
             </div>
@@ -2151,10 +2178,7 @@
                 data-widget_type="image.default"
               >
                 <div class="elementor-widget-container">
-                  <a
-                    href="chartlink"
-                    target="_blank"
-                  >
+                  <a href="chartlink" target="_blank">
                     <img
                       decoding="async"
                       width="150"
@@ -2173,10 +2197,7 @@
                 data-widget_type="image.default"
               >
                 <div class="elementor-widget-container">
-                  <a
-                    href="dexscreenerlink"
-                    target="_blank"
-                  >
+                  <a href="dexscreenerlink" target="_blank">
                     <img
                       decoding="async"
                       width="150"
